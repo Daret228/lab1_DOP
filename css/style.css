@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  padding-left: 15px;
+  list-style: none;
+}
+ul li:before {
+  content: "-";
+  position: relative;
+  left: -10px;
+}
+
+main {
+  font-size: 18px;
+}
+
+.main__peace-text {
+  background-color: yellow;
+}
+
+/*Обрезание картинки справа и снизу*/
+.main__image {
+  position: relative;
+  overflow: hidden;
+  width: 115px;
+  height: 115px;
+}
+.main__image img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

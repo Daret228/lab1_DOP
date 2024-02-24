@@ -1,0 +1,42 @@
+body{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+ul {
+    padding-left: 15px;
+    list-style: none;
+    li:before {
+        content:  "-";
+        position: relative;
+        left: -10px;
+    }
+}
+
+main{
+    font-size: 18px;
+}
+
+.main__peace-text{
+    background-color: yellow;
+}
+
+/*Обрезание картинки справа и снизу*/
+.main__image{
+    
+    position: relative;
+    overflow:hidden;
+    width:115px;
+    height:115px;
+    
+    img{
+        position: absolute;
+        width:150px;
+        height:150px;
+        object-fit:cover;
+    }
+}
